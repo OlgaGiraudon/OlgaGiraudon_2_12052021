@@ -1,0 +1,158 @@
+/*font*/
+body
+{
+    font-family: 'Raleway', sans-serif;
+    
+}
+h1
+{
+    font-weight: bolder;
+}
+
+/*logo*/
+#logo
+{
+    display:flex;
+    justify-content:flex-start;
+    height:40px;
+    width:50px;
+    margin-left: 20px;
+}
+/*title*/
+#title
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    margin-left: 20px;
+    line-height: 10px;
+}
+
+
+/*menu navigation*/
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    margin-right: 10px;
+    
+}
+
+nav li
+{
+    margin-right: 25px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+}
+#bold
+{
+    font-weight: bolder;
+    color: #0065FC;
+}
+nav a:hover
+{
+    color: #0065FC;
+    text-decoration: overline;
+    
+}
+nav a:visited
+{
+    color: grey;
+}
+
+
+ /*search field*/
+ 
+ #search
+ {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     margin-left: 20px;
+     width: 500px;
+     
+ }
+ #map
+ {
+    height: 35px;
+     width: 35px;
+     background-color: rgb(206, 203, 203);
+     
+     border-radius: 8px 0 0 8px;
+     
+     
+ }
+ #geo
+ {
+     height: 20px;
+     width: 20px;
+    margin-left: 8px;
+    margin-top: 6px;
+    opacity: 0.4;
+    
+
+ }
+#search_field
+{
+    height: 31px;
+    width: 300px;
+    font-size: 1em;
+    border-right: none;
+    border-top: 1px solid rgb(199, 195, 195);
+    border-bottom: 1px solid rgb(199, 195, 195)
+    
+    
+
+}
+#button
+{
+    height: 37px;  
+    position: absolute;  
+    background-color: #0065FC;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 1em;
+    border-radius: 0 8px 8px 0;
+    margin: -1px;
+    
+    
+   
+
+}
+ .image1
+ {
+     height: 50px;
+     width: 40px;
+ }
+    
+   
+ /*Filtre*/
+
+#filter
+{   width: 800px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left:20px;
+    font-weight: bolder;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_filter
+{
+    background-color: #DEEBFF;
+    height:45px;
+    width: 45px;
+    border-radius: 90px;
+}
+.img_filter
+{
+    color: #0065fc;
+   
+}
