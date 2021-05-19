@@ -35,7 +35,7 @@ nav ul
     display: flex;
     list-style-type: none;
     justify-content: end;
-    margin-right: 10px;
+    margin-right: 80px;
     
 }
 
@@ -135,6 +135,7 @@ nav a:visited
  #filtre
  {
     margin-top: 50px;
+    margin-left: 20px;
  }
 #filtre ul
 {
@@ -189,7 +190,7 @@ nav a:visited
     justify-content: flex-start;
     align-items: center;
     width: 600px;
-    margin: 0px;
+    margin-left: 20px;
     
 }
 #info img
@@ -203,5 +204,405 @@ nav a:visited
 
 }
 
+#main_part
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 95%;
+   
+}
+/*Hebergements*/
+#sec1
+{
+    width: 1200px;
+    
+    background-color: #F2F2F2;
+    margin-left: 20px;
+    border-radius: 20px;
+    z-index: 1;
+    flex-wrap: wrap;
+    
+}
+section h1
+{
+    padding-top: 20px;
+    padding-left:15px;
+    font-size: 1.5em;
+}
+#hebflex
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    justify-content: space-between;
+    
+    
+}
 
 
+#hebflex2
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    justify-content: space-between;
+    position: relative;
+
+    
+}
+
+#heb1
+{
+    
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 350px;
+    height: 270px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 2;
+}
+.bold
+{
+    font-weight: bolder;
+}
+.imheb
+{
+    height: 170px;
+    width: 320px;
+    
+    z-index: 2;
+    top:10px;
+    left: 15px;
+    position: absolute;
+    z-index: 3;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.aheb
+{
+    height: 70px;
+    width: 220px;
+    position: absolute;
+    color: black;
+    left: 25px;
+    bottom: 0px;
+    z-index: 3;
+    
+
+}
+#heb1 a:hover
+{
+color: #0065FC;
+}
+.sheb 
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: last baseline;
+    height: 15px;
+    width:50px;
+    position: absolute;
+    z-index: 3;
+    left: 25px;
+    bottom: 10px;
+}
+
+.hebimgsize
+{
+    height: 15px;
+    width: 15px;
+}
+#heb2
+{
+    display: flex;
+    background-color: white;
+    
+    top: 10px;
+   
+    
+    width: 350px;
+    height: 270px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 2;
+    
+}
+.imheb2
+{
+    height: 170px;
+    width: 320px;
+    
+    z-index: 2;
+    top:10px;
+    left: 15px;
+    position: absolute;
+    z-index: 3;
+    border-radius: 15px 15px 0px 0px;
+
+}
+#heb2 a:hover
+{
+color: #0065FC;
+}
+#heb3
+{
+    display: flex;
+    background-color: white;
+    
+    top: 10px;
+    
+    width: 350px;
+    height: 270px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 2;
+    
+}
+.imheb3
+{
+    height: 170px;
+    width: 320px;
+    
+    z-index: 2;
+    top:10px;
+    left: 15px;
+    position: absolute;
+    z-index: 3;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+#heb3 a:hover
+{
+color: #0065FC;
+}
+#heb4
+{
+    display: flex;
+    background-color: white;
+    width: 350px;
+    height: 270px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    margin-left: 30px;
+   
+   
+    
+}
+.imheb4
+{
+    height: 170px;
+    width: 320px;
+    z-index: 2;
+    top:10px;
+    left: 15px;
+    position: absolute;
+    z-index: 3;
+    border-radius: 15px 15px 0px 0px;
+
+}
+#heb4 a:hover
+{
+color: #0065FC;
+}
+#heb5
+{
+    display: flex;
+    background-color: white;
+    width: 350px;
+    height: 270px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    margin-right: 395px;
+   
+    
+}
+.imheb5
+{
+    height: 170px;
+    width: 320px;
+    z-index: 2;
+    top:10px;
+    left: 15px;
+    position: absolute;
+    z-index: 3;
+    border-radius: 15px 15px 0px 0px;
+
+}
+#heb5 a:hover
+{
+color: #0065FC;
+}
+#heb6
+{
+    display: flex;
+    background-color: white;
+    width: 350px;
+    height: 270px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 20px;
+    margin-left: 820px;
+    
+}
+.imheb6
+{
+    height: 170px;
+    width: 320px;
+    z-index: 2;
+    top:10px;
+    left: 15px;
+    position: absolute;
+    z-index: 3;
+    border-radius: 15px 15px 0px 0px;
+}
+#heb6 a:hover
+{
+color: #0065FC;
+}
+.bold2
+{
+    font-weight: bolder;
+    top: 30px;
+    color: black;
+    display: block;
+    margin: 40px;
+}
+#sec2
+{   display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 420px;
+    height: auto;
+    background-color: #F2F2F2;
+    margin-right: 80px;
+    border-radius: 15px;
+    
+    
+}
+#logo_sec2
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    
+}
+
+#logo_sec2 img
+{
+    height: 40px;
+    width: 40px;
+}
+#pop1
+{   position:relative;
+    background-color: white;
+    z-index: 1;
+    border-radius: 20px;
+    width: 370px;
+    height: 200px;
+    margin-left: 20px;
+}
+#impop1
+{
+    height: 180px;
+    width: 180px;
+    border-radius: 20px 0 0 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 2;
+    
+}
+.apop
+{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 20px;
+    color: black;
+
+}
+#pop1 a:hover
+{
+    color: #0065FC;
+}
+.spop
+{
+    position: absolute;
+   margin-left:200px;
+   top: 160px;
+
+}
+#pop2
+{   position:relative;
+    background-color: white;
+    z-index: 1;
+    border-radius: 20px;
+    width: 370px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 35px;
+   
+}
+#impop2
+{
+    height: 180px;
+    width: 180px;
+    border-radius: 20px 0 0 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 2;
+   
+    
+}
+#pop2 a:hover
+{
+    color: #0065FC;
+}
+#pop3
+{   position:relative;
+    background-color: white;
+    z-index: 1;
+    border-radius: 20px;
+    width: 370px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 35px;
+}
+#impop3
+{
+    height: 180px;
+    width: 180px;
+    border-radius: 20px 0 0 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 2;
+    
+}
+#pop3 a:hover
+{
+    color: #0065FC;
+}
+/*#activ
+{
+    border: 2px solid black;
+    width: 90%;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+}
+#act1
+{
+
+}*/
