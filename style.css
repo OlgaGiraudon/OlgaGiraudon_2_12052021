@@ -8,12 +8,14 @@ body
 h1
 {
     font-weight: bolder;
+    font-size: 2rem;
+   
 }
-section h1
+section h2
 {
     padding-top: 20px;
     padding-left:15px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bolder;
     color: black
 }
@@ -679,32 +681,35 @@ nav a:hover
     color: #0065FC;
     background-color: #DEEBFF;
 }
-/*
+
+ /*Footer*/
 
 footer
 {
     background-color: #F2F2F2;
     position: relative;
     width: 95%;
-    height: 200px;
-    margin-top: 100px;
+    height: 180px;
+    margin-top: 2%;
+    margin-bottom: 0%;
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: stretch;
-    
-    padding: 30px;
+    padding: 2%;
+    flex-wrap: wrap;
+
 
 }
 #footer1
 {
-    margin-right: 200px;
+    margin-right: 10%;
     
     
 }
 #footer2
 {
-    margin-right: 200px;
+    margin-right: 10%;
 }
 footer ul
 {
@@ -719,15 +724,3 @@ footer a:hover{
 color:#0065FC
 }
 
-@media all and (max-width: 480px)
-{
-    #head1
-    {
-        width: 25%;
-    }
-    #search
-    {
-        width: 20%
-    }
-}
-*/
