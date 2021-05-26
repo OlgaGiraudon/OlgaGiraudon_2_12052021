@@ -744,47 +744,171 @@ color:#0065FC
 
 
 
-
-
-
-
-
-
 @media screen and (max-width:480px)
 {   
+  #head1
+  {
+     
+      width: 100%;
+      height: 50px;
+     position: relative;
+      
+
+  }
+  #logo
+  {
+      
+      width: 60%;
+      top: 0%;
+      left: 0%;
+      height: 80%;
+      position: absolute;
+      z-index: 1;
   
-    nav ul
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        flex-wrap: wrap-reverse;
-        margin-left: 40px;
-        line-height: 40px;
-        margin-top: 0%;
-   
-    }
 
-    nav a:hover
-    {
-        color: #0065FC;
-        font-weight: bolder;
-        border-bottom: 1px solid #0065FC;
-        border-top: 0px;
+  }
+  #head1 nav
+  {
+      
+     top: 0%;
+      right: 0%;
+      position: absolute;
+  }
+  #head1 ul
+  {
+  
+    flex-wrap: wrap-reverse;
+    align-content: stretch;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 2;
     
-    }
-   
 
+  }
+  #head1 li
+  {
+     
+      margin-left: 80px;
+      margin-top: 0%;
+      
+     
+  }
+  #head1 li:nth-child(1)
+  {
+     
+      margin-right: 95%;
+  }
+  
+  nav a
+  {
+    font-size: 1.5rem;
+    padding: 0%;
+  
+  }
+  nav a:hover
+{
+    
+    border-bottom: 1px solid #0065FC;
+    border-top: 0px;
+    padding: 2px;
+}
+/*Title*/
+#title
+{
+    margin-top: 10%;
+}
+   /*Filtre*/
+   #filtre
+   {  
+     
+       width: 90%;
+       height: auto;
+      
+       
+   }
+   #filtre ul
+   {    
+       justify-content: space-between;
+       align-items: flex-start;
+       width: 75%;
+       margin-top: 0px;
+       
+   }
+   #filtre li:nth-child(1)
+   { 
+      
+       margin-right: 35%;
+       margin-bottom: 3%;
+   }
+   #filtre li
+   {
+    width: auto;
+    font-size: 1rem;
+    margin-bottom: 5px;
+   }
+   #filtre a
+   {
+    padding-left: 40px;
+    padding-right: 5px;
+    font-size: 0.9rem;
+   }
+
+    /*search field*/
     #button
     {
         width: 10%;
+        color: transparent;
+        background-image: url('images/logo/search.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius:0 15px 15px 0;
     }
 
+    /*Info*/
+    
+    #info
+    {   flex-direction: row;
+        justify-content: left;
+        align-items:stretch;
+        width: 85%;
+        height: 50px;
+        margin-left: 5px;
+        margin-bottom: 2% ;
+      
+       
+    }
+    #info img
+    {
+    height: 13px;
+    width: 8px;
+    padding: 10.5px;
+    border: 1px solid #F2F2F2;
+    border-radius: 30px;
+    margin-left: 0px;
+    
+
+}   
+    #info_flex 
+    {  
+        
+        width: 82%;
+ 
+    }
+    #info_flex p
+    {
+       margin-top: 0px;
+       margin-left: 0px;
+       text-align: justify;
+    }
+    /*Les plus populaires*/
     #sec_heb_pop
+
     {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        justify-content: left;
+        width: 95%;
         height: auto;
         margin-bottom: 0px;
        
@@ -793,9 +917,14 @@ color:#0065FC
     #sec_pop
     {
         width: 100%;
-        height: 800px;
+        height: 600px;
         margin-left: 0px;
         order: 1;
+    }
+    .pop
+    {
+        
+        height: 30%;
     }
     #sec_heb
     {
@@ -806,10 +935,12 @@ color:#0065FC
         background-color: white;
     }
    
+    /*Hebergements à Marseille*/
     #hebflex
     {
         flex-direction: column;
         margin-bottom: 0%;
+        margin-left: 0%;
         height: 50%;
         background-color: white;
         
@@ -819,6 +950,7 @@ color:#0065FC
         flex-direction: column;
         height: 50%;
         background-color: white;
+        margin-left: 0%;
     }
     .heb
     {
@@ -834,11 +966,11 @@ color:#0065FC
     }
 
     /*Activités à Marseille*/
+    
     #actmain
     {
         flex-direction: column;
         height: auto;
-      
           
     }
 
@@ -955,6 +1087,8 @@ color:#0065FC
    footer
    {
        flex-direction: column;
-       width: 100%;
+       width: 99%;
+       margin-left: 0%;
+       padding: 1%;
    }
 }
