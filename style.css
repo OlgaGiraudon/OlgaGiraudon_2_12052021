@@ -2,7 +2,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
     
 }
 h1
@@ -107,7 +107,7 @@ nav a
     color: #0065FC;
     font-weight: bolder;
     border-top: 1px solid #0065FC;
-    padding: 10px;
+    padding: 9%;
 }
 
  /*search field*/
@@ -255,7 +255,7 @@ nav a
 #sec_heb_pop
 {
    
-    width: 97%;
+    width: 99%;
     height: 700px;
     display: flex;
     flex-direction: row;
@@ -502,7 +502,7 @@ nav a
 #activ
 {
     
-    width: 96%;
+    width: 98%;
     margin-top: 2%;
     margin-left: 20px;
     
@@ -757,7 +757,230 @@ color:#0065FC
 }
 
 
+@media screen and (max-width:770px)
+{     
+   
 
+    #logo
+    {
+        margin-left: 1%;
+    }
+    .menu-navig
+    {
+        margin-right: 1%;
+        border: 1px solid blue;
+    }
+    #search
+    {
+        width:85%;
+    }
+    #sec_heb_pop
+
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 95%;
+        height: auto;
+        margin-bottom: 0px;
+       
+    
+    }
+    #sec_pop
+    {
+        width: 70%;
+        height: 600px;
+        margin-left: 0px;
+        order: 2;
+    }
+    .pop
+    {
+        
+        height: 30%;
+    }
+    #sec_heb
+    {
+        width: 60%;
+        height: 1900px;
+        margin-left: 0px;
+        
+        background-color: white;
+        order: 1;
+    }
+   
+    /*Hebergements à Marseille*/
+    #hebflex
+    {
+        flex-direction: column;
+        margin-bottom: 0%;
+        margin-left: 0%;
+        height: 50%;
+        background-color: white;
+        
+    }
+    #hebflex2
+    {
+        flex-direction: column;
+        height: 50%;
+        background-color: white;
+        margin-left: 0%;
+    }
+    .heb
+    {
+        width: 100%;
+        height: 30%;
+        box-shadow: 5px 5px 3px #f2f2f2;
+        
+    }
+    #bold2_heb
+    {
+        height: 2%;
+        
+    }
+    #actmain
+    {
+        flex-direction: column;
+        height: auto;
+        width: 60%;
+          
+    }
+
+    .act1
+    {
+        height: 250px;
+        width: 95%;
+        margin-bottom: 20px;
+    }    
+
+    .act2
+    {
+        height: 540px;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .meta_act2
+    {   display: flex;
+        flex-direction: column;
+        height: 250px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .im_g_act
+    {
+        height: 100%;
+        width: 100%;
+    }
+    #im_m_act1
+    {
+        height: 250px;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+    }
+    #im_m_act2
+    {
+        height: 250px;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+    }
+    #im_p_act1
+    {
+        height: 250px;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+    }
+    #im_p_act2
+    {
+        height: 250px;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+    }
+    .a_g_act
+    {
+        width: 100%;
+        height: 50px;
+        bottom: 0;
+    }
+    .a_g_act p
+    {
+        margin:16px
+    }
+    #a_m_act1
+    {
+        width: 100%;
+        height: 50px;
+        top: 80%;
+        position: absolute;
+       
+    }
+    #a_m_act1 p
+    {
+        margin:16px
+    }
+    #a_m_act2
+    {
+        width: 100%;
+        height: 50px;
+        top: 80%;
+        position: absolute;
+    }
+    #a_m_act2 p
+    {
+        margin:16px;
+
+    }
+    #a_p_act1
+    {
+        width: 100%;
+        height: 50px;
+        bottom: 0;
+        position: absolute;
+    }
+    #a_p_act1 p
+    {
+        margin:16px;
+    }
+    #a_p_act2
+    {
+        width: 100%;
+        height: 50px;
+        top: 80%;
+        position: absolute;
+    }
+    #a_p_act2 p
+    {
+        margin:16px;
+    }
+    #info
+    {
+        width: 100%;
+    }
+    #filtre ul
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        
+        
+    }
+ /*Footer*/
+    footer
+    {   display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 70%;
+
+    }
+    footer a:hover
+    {
+        color: #0065FC;
+    }
+    
+}
 
 
 
@@ -1127,227 +1350,44 @@ color:#0065FC
    }
 }
 
-@media screen and (max-width:770px)
-{     
-   
 
+
+@media screen and (max-width:280px)
+{   h1
+    {
+            font-size: 1.25em;
+            line-height: 20px;
+    }
+    
+
+    
+    
+    #top-bar
+    {
+        border: 2px solid blue;
+        width: 99%;
+        height: 80px;
+    }
     #logo
     {
-        margin-left: 1%;
-    }
-    .menu-navig
-    {
-        margin-right: 1%;
-        border: 1px solid blue;
-    }
-    #search
-    {
-        width:85%;
-    }
-    #sec_heb_pop
-
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        width: 95%;
-        height: auto;
-        margin-bottom: 0px;
-       
-    
-    }
-    #sec_pop
-    {
-        width: 70%;
-        height: 600px;
-        margin-left: 0px;
-        order: 2;
-    }
-    .pop
-    {
-        
-        height: 30%;
-    }
-    #sec_heb
-    {
-        width: 60%;
-        height: 1900px;
-        margin-left: 0px;
-        
-        background-color: white;
-        order: 1;
-    }
-   
-    /*Hebergements à Marseille*/
-    #hebflex
-    {
-        flex-direction: column;
-        margin-bottom: 0%;
+        border: 2px solid red;
+        margin-top: 0%;
         margin-left: 0%;
-        height: 50%;
-        background-color: white;
-        
-    }
-    #hebflex2
-    {
-        flex-direction: column;
-        height: 50%;
-        background-color: white;
-        margin-left: 0%;
-    }
-    .heb
-    {
-        width: 100%;
-        height: 30%;
-        box-shadow: 5px 5px 3px #f2f2f2;
-        
-    }
-    #bold2_heb
-    {
-        height: 2%;
-        
-    }
-    #actmain
-    {
-        flex-direction: column;
-        height: auto;
-        width: 60%;
-          
+        width: 35%;
+        height: 40%;
     }
 
-    .act1
+    /*Search field*/
+    #search_field
     {
-        height: 250px;
-        width: 95%;
-        margin-bottom: 20px;
-    }    
-
-    .act2
+        width: 75%;
+    }
+    .menu_navig a
+    {   font-size: 0.95em;
+        border: 1px solid green;
+    }
+    #navig3
     {
-        height: 540px;
-        width: 95%;
-        margin-bottom: 20px;
-    }
-    .meta_act2
-    {   display: flex;
-        flex-direction: column;
-        height: 250px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-    .im_g_act
-    {
-        height: 100%;
-        width: 100%;
-    }
-    #im_m_act1
-    {
-        height: 250px;
-        width: 100%;
-        position: absolute;
-        top: 0px;
-    }
-    #im_m_act2
-    {
-        height: 250px;
-        width: 100%;
-        position: absolute;
-        top: 0px;
-    }
-    #im_p_act1
-    {
-        height: 250px;
-        width: 100%;
-        position: absolute;
-        top: 0px;
-    }
-    #im_p_act2
-    {
-        height: 250px;
-        width: 100%;
-        position: absolute;
-        top: 0px;
-    }
-    .a_g_act
-    {
-        width: 100%;
-        height: 50px;
-        bottom: 0;
-    }
-    .a_g_act p
-    {
-        margin:16px
-    }
-    #a_m_act1
-    {
-        width: 100%;
-        height: 50px;
-        top: 80%;
-        position: absolute;
-       
-    }
-    #a_m_act1 p
-    {
-        margin:16px
-    }
-    #a_m_act2
-    {
-        width: 100%;
-        height: 50px;
-        top: 80%;
-        position: absolute;
-    }
-    #a_m_act2 p
-    {
-        margin:16px;
-
-    }
-    #a_p_act1
-    {
-        width: 100%;
-        height: 50px;
-        bottom: 0;
-        position: absolute;
-    }
-    #a_p_act1 p
-    {
-        margin:16px;
-    }
-    #a_p_act2
-    {
-        width: 100%;
-        height: 50px;
-        top: 80%;
-        position: absolute;
-    }
-    #a_p_act2 p
-    {
-        margin:16px;
-    }
-    #info
-    {
-        width: 100%;
-    }
-    #filtre ul
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        align-items: flex-start;
-        
-        
-    }
- /*Footer*/
-    footer
-    {   display: flex;
-        flex-direction: column;
-        height: 400px;
-        width: 70%;
-
-    }
-    footer a:hover
-    {
-        color: #0065FC;
+        margin-right: 8%;
     }
 }
-
