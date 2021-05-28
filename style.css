@@ -8,7 +8,7 @@ body
 h1
 {
     font-weight: bolder;
-    font-size: 1.25em;
+    font-size: 1.5em;
    
 }
 section h2
@@ -118,7 +118,8 @@ nav a
      flex-direction: row;
      justify-content: flex-start;
      margin-left: 20px;
-     width: 50%;
+     width: 650px;
+     
    
      
  }
@@ -127,7 +128,6 @@ nav a
      height: 35px;
      width: 35px;
      background-color: #e7e5e5;
-     
      border-radius: 8px 0 0 8px;
      
      
@@ -145,12 +145,13 @@ nav a
 #search_field
 {
     height: 31px;
-    width: 300px;
+    width: 95%;
     font-size: 1em;
     border-right: none;
     border-top: 1px solid rgb(199, 195, 195);
     border-bottom: 1px solid rgb(199, 195, 195);
     font-weight: bolder;
+    position: relative;
 
 }
 #button
@@ -741,15 +742,16 @@ footer
 }
 .foot
 {
-    margin-right: 10%;
+    margin-right: 15%;
      
 }
-
+footer 
 
 .foot a
 {
-    color: black;
-    line-height: 30px;
+    color:black;
+    line-height: 23px;
+    font-size: 1em;
     
 }
 .foot a:hover{
@@ -757,23 +759,109 @@ color:#0065FC
 }
 
 
-@media screen and (max-width:770px)
-{     
-   
+@media screen and (max-width:768px)
+{  
+    body
+    {
+        font-size: 1em;
+    }   
+
+    /*Logo + menu navigation*/
+   #top-bar
+   {
+       
+       margin-left: 3%;
+       width: 96%;
+       height: 70px;
+      
+   }
 
     #logo
     {
-        margin-left: 1%;
+       margin-left: 0%;
+       margin-top: 0%;
+       height: 90%;
+       width: 20%;
+      
+      
     }
-    .menu-navig
+    #logo img
     {
-        margin-right: 1%;
-        border: 1px solid blue;
+        height: 75%;
+        width: 60%;
     }
-    #search
+    nav
     {
-        width:85%;
+        width: 70%;
+        height: 70px;
+        
+             
+
     }
+    .menu_navig 
+    {   height: 60%;
+        width: 30%;
+        margin-right: 15%;
+        padding: 1%;
+       
+    }
+   .menu_navig a
+   {
+       height: 100%;
+   }
+    .menu_navig a:hover
+    {
+        color: #0065FC;
+        border-bottom: 1px solid #0065FC;
+    }
+    /*title*/
+    #title
+    {   
+       line-height: 3px;
+       margin-top: 10%;
+       margin-bottom: 7%;
+    }
+    #title h1
+    {
+        font-size: 1.3em;
+        
+    }
+
+    /*Search field*/
+    #search_media
+    {
+        width: 450px;
+        
+    }
+    #search_field
+    {
+        width: 90%;
+    }
+    #button
+    {
+        margin-right: 0px;
+        background-color: blueviolet;
+    }
+
+    /*Filtres*/
+    #filtre
+    {
+        height: 300px;
+    }
+
+    #filtre ul
+    {  height: 90%;
+       display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-between ;
+       
+      
+    }
+    .fil_options 
+    {
+       margin-bottom: 15px;
+    }
+    /*Hebergements*/
     #sec_heb_pop
 
     {
@@ -781,7 +869,7 @@ color:#0065FC
         flex-direction: column;
         justify-content: left;
         width: 95%;
-        height: auto;
+        height: 2550px;
         margin-bottom: 0px;
        
     
@@ -790,9 +878,12 @@ color:#0065FC
     {
         width: 70%;
         height: 600px;
-        margin-left: 0px;
+        margin-left: 15%;
+        margin-top: 5%;
         order: 2;
     }
+    
+
     .pop
     {
         
@@ -800,9 +891,9 @@ color:#0065FC
     }
     #sec_heb
     {
-        width: 60%;
+        width: 70%;
         height: 1900px;
-        margin-left: 0px;
+        margin-left: 15%;
         
         background-color: white;
         order: 1;
@@ -842,6 +933,7 @@ color:#0065FC
         flex-direction: column;
         height: auto;
         width: 60%;
+        margin-left: 15%;
           
     }
 
@@ -967,14 +1059,24 @@ color:#0065FC
         
         
     }
+
  /*Footer*/
     footer
     {   display: flex;
         flex-direction: column;
         height: 400px;
-        width: 70%;
+        width: 75%;
+        margin-left: 10%;
+        margin-right: 10%;
+        
 
     }
+    .foot
+{   text-align: center;
+    margin-right: 0%;
+    margin-bottom: 10%;
+     
+}
     footer a:hover
     {
         color: #0065FC;
