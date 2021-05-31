@@ -758,6 +758,12 @@ footer
 color:#0065FC
 }
 
+.foot_bold
+{
+    font-weight: bolder;
+    margin-bottom: 4%;
+}
+    
 
 @media screen and (max-width:768px)
 {  
@@ -1090,13 +1096,24 @@ color:#0065FC
 
 @media screen and (max-width:480px)
 
-{   
+{   body
+    {
+        height: 100%;
+        width: 100%;
+     }
+    #top-bar
+    {
+        width: 99%;
+        height: 100px;
+        margin-left: 0%;
+    }
     #logo
     {
-      position: relative;
-       margin-left: 15%;
-       height: 15%;
+       position: relative;
+       height: 50%;
        width: 25%;
+       margin-top: 4%;
+       
     }
    #logo img
     {
@@ -1104,28 +1121,36 @@ color:#0065FC
        height:70%;
        width:75%;
        margin-left: 0%;
-      margin-top: 0%;
+       margin-top: 0%;
+     
+     
     }
 
    nav
     {
         display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
         flex-wrap: wrap-reverse;
-        margin-right: 1%;
-        margin-left: 1%;
-        margin-top: 0px;  
+        width: 99%;
+        height: 25%;
+        margin-top: 0%;
+        margin-left: 10%;
         position: absolute;
-        width: 98%;
+        border: 1px solid red;
+        
     }
   
-    
     #navig1
 
     {
-    margin-left: 1%;
+    height: 25%;
+    width: 25%;
+    margin-left: 0%;
     margin-bottom: 2%;
     margin-right: 30%;
-    margin-top: 10%;
+    margin-top: 5%;
+   
     
     }
 
@@ -1133,15 +1158,21 @@ color:#0065FC
 
     {
         margin-bottom: 2%;
-        margin-top: 10%;
+        margin-top: 5%;
+        height: 25%;
+        width: 25%;
+        
     
     }
 
     #navig3
 
     {
-    margin-top: 1%;
-    margin-left: 65%;
+    margin-top: 0%;
+    margin-left: 60%;
+    height: 25%;
+    width: 25%;
+    
     }
 
     .menu_navig a:hover
@@ -1158,32 +1189,81 @@ color:#0065FC
     /*Title*/
     #title
     {
-        margin-top: 10%;
+        margin-top: 25%;
+        height: 50%;
+        width: 75%;
+       
+        line-height: 20px;
+        text-align: justify;
+    }
+   /*Search field*/
+   #search
+   {
+       width: 80%;
+   }
+   #search_field
+    {
+        width: 70%;
+    }
+    #button
+    {
+        width: 10%;
+        color: transparent;
+        background-image: url('images/logo/search.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius:0 15px 15px 0;
+        background-color: #0065FC;
     }
 
    /*Filtre*/
    #filtre
    {  
      
-       width: 90%;
+       width: 98%;
        height: auto;
         
    }
 
    #filtre ul
-   {    
+   {    display: flex;
+       flex-direction: row;
        justify-content: space-between;
-       align-items: flex-start;
-       width: 75%;
+       flex-wrap: wrap;
+       width: 95%;
+       margin-left: 0%;
        margin-top: 0px;
+       
+      
        
    }
 
    #filtre li:nth-child(1)
    { 
       
-       margin-right: 35%;
+       margin-right: 55%;
        margin-bottom: 3%;
+       
+   }
+   #filtre li:nth-child(2)
+   { 
+      
+       margin-right: 5%;
+       
+      
+   }
+   #filtre li:nth-child(3)
+   { 
+      
+       margin-right: 2%;
+      
+      
+   }
+   #filtre li:nth-child(4)
+   { 
+      
+       margin-right: 50%;
+      
    }
 
    #filtre li
@@ -1201,25 +1281,10 @@ color:#0065FC
    }
 
     /*search field*/
-    #search
-    {
-        width:95%;
-    }
+    
 
-    #button
-    {
-        width: 10%;
-        color: transparent;
-        background-image: url('images/logo/search.svg');
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius:0 15px 15px 0;
-    }
-
-    #search_field
-    {
-        width: 90%;
-    }
+    
+    
     /*Info*/
     
     #info
@@ -1466,13 +1531,13 @@ color:#0065FC
     
     #top-bar
     {
-        border: 2px solid blue;
+        
         width: 99%;
         height: 80px;
     }
     #logo
     {
-        border: 2px solid red;
+       
         margin-top: 0%;
         margin-left: 0%;
         width: 35%;
@@ -1486,7 +1551,7 @@ color:#0065FC
     }
     .menu_navig a
     {   font-size: 0.95em;
-        border: 1px solid green;
+        
     }
     #navig3
     {
