@@ -1351,17 +1351,17 @@ color:#0065FC
        text-align: justify;
     }
     /*Les plus populaires*/
+
     #sec_heb_pop
 
     {
         display: flex;
         flex-direction: column;
         justify-content: left;
-        width: 95%;
+        width: 100%;
         margin-left: 0%;
         height: auto;
         margin-bottom: 0px;
-        
         margin-top: 7%;
        
     
@@ -1372,7 +1372,9 @@ color:#0065FC
         height: 600px;
         margin-left: 0px;
         margin-bottom: 7%;
+        border-radius: 0px;
         order: 1;
+        
     }
     .pop
     {
@@ -1381,13 +1383,18 @@ color:#0065FC
     }
     #sec_heb
     {
-        width: 100%;
+        width: 90%;
         height: 1900px;
-        margin-left: 0px;
+        margin-left: 5%;
         order: 2;
         background-color: white;
+        
     }
-   
+    #logo_sec2 h2
+    {
+        font-size: 1.1em;
+        font-weight: bolder;
+    }
     /*Hebergements à Marseille*/
     #hebflex
     {
@@ -1397,6 +1404,7 @@ color:#0065FC
         height: 50%;
         background-color: white;
         border: 2px solid redviolet;
+        
         
     }
     #hebflex2
@@ -1411,12 +1419,19 @@ color:#0065FC
         width: 100%;
         height: 30%;
         box-shadow: 5px 5px 3px #f2f2f2;
+        border: 1px solid #f2f2f2;
+        
         
     }
     #bold2_heb
     {
         height: 2%;
         
+    }
+    #hebergement 
+    {
+        font-weight: bolder;
+        font-size: 1.1em;
     }
 
     /*Activités à Marseille*/
@@ -1425,9 +1440,9 @@ color:#0065FC
     {
         flex-direction: column;
         justify-content: left;
-        margin-left: 0%;
+        margin-left: 5%;
         height: auto;
-        width: 95%;
+        width: 90%;
         
           
     }
@@ -1438,7 +1453,7 @@ color:#0065FC
     .act1
     {
         height: 250px;
-        width: 95%;
+        width: 100%;
         margin-bottom: 20px;
         
         
@@ -1447,7 +1462,7 @@ color:#0065FC
     .act2
     {
         height: 540px;
-        width: 95%;
+        width: 100%;
         margin-bottom: 20px;
     }
     .meta_act2
@@ -1546,65 +1561,31 @@ color:#0065FC
     {
         margin:16px;
     }
-
+    #activites
+    {
+        font-size: 1.1em;
+        font-weight: bolder;
+    }
 /*Footer*/
    footer
-   {
+   {   display: flex;
        flex-direction: column;
        justify-content: flex-start;
-       align-items: flex-start;
-     
-       width: 97%;
-       margin-left: 0%;
-       padding: 1%;
+       width: 96%;
+       margin: 0%;
+       padding-top: 5%; 
+   }
+
+  .foot
+   {  
+        text-align: left;
+        margin-left: 5%;
+        width: 90%;
        
    }
 
-   .foot
-   {
-       text-align: left;
-       margin-left: 7%;
-   }
+
 }
 
 
-/*
-@media screen and (max-width:280px)
-{   h1
-    {
-            font-size: 1.25em;
-            line-height: 20px;
-    }
-    
 
-    
-    
-    #top-bar
-    {
-        
-        width: 99%;
-        height: 80px;
-    }
-    #logo
-    {
-       
-        margin-top: 0%;
-        margin-left: 0%;
-        width: 35%;
-        height: 40%;
-    }
-
-    /*Search field*/
-    /*
-    #search_field
-    {
-        width: 75%;
-    }
-    .menu_navig a
-    {   font-size: 0.95em;
-        
-    }
-    #navig3
-    {
-        margin-right: 8%;
-    }*/
