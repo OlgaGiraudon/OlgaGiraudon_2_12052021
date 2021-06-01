@@ -107,7 +107,7 @@ nav a
     color: #0065FC;
     font-weight: bolder;
     border-top: 1px solid #0065FC;
-    padding: 9%;
+    padding: 13%;
 }
 
  /*search field*/
@@ -837,7 +837,8 @@ color:#0065FC
     /*Search field*/
     #search_media
     {
-        width: 450px;
+        width: 90%;
+        
         
     }
     #search_field
@@ -849,7 +850,7 @@ color:#0065FC
         margin-right: 0px;
         background-color: blueviolet;
     }
-
+   
     /*Filtres*/
     #filtre
     {
@@ -935,6 +936,7 @@ color:#0065FC
         height: 2%;
         
     }
+    /*  Activites*/
     #actmain
     {
         flex-direction: column;
@@ -943,7 +945,10 @@ color:#0065FC
         margin-left: 15%;
           
     }
-
+    #activites
+    {
+        margin-left: 15%;
+    }
     .act1
     {
         height: 250px;
@@ -1068,27 +1073,35 @@ color:#0065FC
     }
 
  /*Footer*/
-    footer
-    {   display: flex;
-        flex-direction: column;
-        height: 400px;
-        width: 75%;
-        margin-left: 10%;
-        margin-right: 10%;
-        
-
-    }
-    .foot
-{   text-align: center;
-    margin-right: 0%;
-    margin-bottom: 10%;
-     
-}
-    footer a:hover
-    {
-        color: #0065FC;
-    }
+  
+ footer
+ {
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: royalblue;
+    color: seashell;
+    padding-top: 5%;
+    width: 96%;
+   
     
+ }
+
+    .foot
+    {
+        
+        margin-right: 7%;
+        margin-left: 2%;
+        padding-right: 0%;
+        
+    }
+    /*INFO*/
+    #info
+    {
+        width: 95%;
+       
+    }
 }
 
 
@@ -1206,7 +1219,7 @@ color:#0065FC
         line-height: 20px;
     }
 
-
+    
    /*Search field*/
    #search
    {
@@ -1322,9 +1335,6 @@ color:#0065FC
         height: 50px;
         margin-left: 4%;
         margin-bottom: 2%;
-       
-        
-      
     }
 
     #info img
@@ -1446,6 +1456,7 @@ color:#0065FC
         
           
     }
+    
     #activ
     {
         margin-left: 1%;
@@ -1565,6 +1576,7 @@ color:#0065FC
     {
         font-size: 1.1em;
         font-weight: bolder;
+        margin-left: 5%;
     }
 /*Footer*/
    footer
@@ -1574,6 +1586,8 @@ color:#0065FC
        width: 96%;
        margin: 0%;
        padding-top: 5%; 
+       background-color: #F2F2F2;
+       color: black;
    }
 
   .foot
@@ -1581,6 +1595,7 @@ color:#0065FC
         text-align: left;
         margin-left: 5%;
         width: 90%;
+        margin-bottom: 4%;
        
    }
 
