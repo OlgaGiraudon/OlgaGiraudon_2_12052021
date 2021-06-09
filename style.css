@@ -183,6 +183,7 @@ nav
  #filtre ul li:first-child
  { 
     margin-bottom: 16px;
+    margin-right: 3%;
  }
 #filtre ul
 {
@@ -253,7 +254,6 @@ nav
   width: 23px;
   line-height: 23px;
   text-align: center;
-  
   border: 1px solid #dadada;  
   border-radius: 50px;
   margin-right: 15px;
@@ -330,11 +330,12 @@ nav
 }
 .imheb
 {
-    height: 60%;
+   height: 60%;
     width: 92%;
+    object-fit: cover;
     z-index: 2;
     top:10px;
-    left: 15px;
+    left: 4%;
     position: absolute;
     z-index: 3;
     border-radius: 15px 15px 0px 0px;
@@ -1287,14 +1288,13 @@ color:#0065FC
        margin-left: 0%;
        margin-top: 0px;      
    }
+   #filtre ul li:first-child
+ { 
+    margin-bottom: 5%;
+    margin-right: 60%;
+ }
 
-   #filtre li:nth-child(1)
-
-   { 
-      
-       margin-right: 55%;
-       margin-bottom: 5%;   
-   }
+  
 
    #filtre li:nth-child(2)
 
@@ -1618,6 +1618,17 @@ color:#0065FC
 
 
 }
+@media screen and (max-width:280px)
+{
 
+    /*Search field*/
+
+   #search_media
+    {
+       width: 200px;
+      
+        
+    }
+}
 
 
