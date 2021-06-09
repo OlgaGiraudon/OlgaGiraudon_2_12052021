@@ -339,6 +339,7 @@ nav
     position: absolute;
     z-index: 3;
     border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
 
 }
 
@@ -364,13 +365,13 @@ nav
     
     display: flex;
     flex-direction: row;
-    justify-content: last baseline;
+    justify-content: start;
     height: 10%;
     width: 90%;
     position: absolute;
     z-index: 3;
     left:7%;
-    bottom: 15px;
+    bottom: 1%;
     
 }
 
@@ -469,6 +470,7 @@ nav
     border-radius: 20px 0 0 20px;
     padding: 6px;
     position: absolute;
+    object-fit: cover;
 }
 .descr_pop
 {
@@ -499,7 +501,7 @@ nav
 {
     display: flex;
     flex-direction: row;
-    justify-content: last baseline;
+    justify-content: start;
     align-items: center;
     height: 16%;
     width: 90%;
@@ -564,6 +566,7 @@ nav
     border-radius: 20px;
     z-index: 1;
     box-shadow: 5px 5px 3px #f2f2f2;
+    object-fit: cover;
 }
 
 .a_g_act
@@ -599,6 +602,7 @@ nav
     z-index: 1; 
     position: absolute;
     box-shadow: 5px 5px 3px #f2f2f2;
+    object-fit: cover;
     
 }
 #im_m_act2
@@ -610,6 +614,7 @@ nav
     position: absolute;
     bottom: 0px;
     box-shadow: 5px 5px 3px #f2f2f2;
+    object-fit: cover;
 }
 #a_m_act1
 {
@@ -648,6 +653,7 @@ nav
     margin-top: 0px;
     z-index: 1;
     box-shadow: 5px 5px 3px #f2f2f2;
+    object-fit: cover;
 }
 
 #im_p_act2
@@ -659,6 +665,7 @@ nav
     position: absolute;
     z-index: 1;
     box-shadow: 5px 5px 3px #f2f2f2;
+    object-fit: cover;
     
 }
 
@@ -1092,8 +1099,8 @@ color:#0065FC
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: royalblue;
-    color: seashell;
+   
+    
     padding-top: 5%;
     width: 96%;
    
@@ -1430,7 +1437,7 @@ color:#0065FC
         margin-left: 0%;
         height: 50%;
         background-color: white;
-        border: 2px solid redviolet;
+       
         
         
     }
