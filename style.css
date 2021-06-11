@@ -839,12 +839,8 @@ color:#0065FC
     }
    
     /*Filtres*/
-    #filtre
-    {
-        height: 300px;
-    }
-
-    #filtre ul
+    
+    #filtre ul li:not(.filtre_heading)
     {  height: 90%;
        display: flex;
       flex-direction: column-reverse;
@@ -856,208 +852,22 @@ color:#0065FC
     {
        margin-bottom: 15px;
     }
-    /*Hebergements*/
-    #sec_heb_pop
-
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        width: 95%;
-        height: 2550px;
-        margin-bottom: 0px;
+   /*Hebergements*/
+   #heb_main
+      {
        
-    
-    }
-    #sec_pop
-    {
-        width: 70%;
-        height: 600px;
-        margin-left: 15%;
-        margin-top: 5%;
-        order: 2;
-    }
-    
-
-    .pop
-    {
-        
-        height: 30%;
-    }
-    #sec_heb
-    {
-        width: 70%;
-        height: 1900px;
-        margin-left: 15%;
-        
-        background-color: white;
-        order: 1;
-    }
-   
-    /*Hebergements à Marseille*/
-    #hebflex
-    {
-        flex-direction: column;
-        margin-bottom: 0%;
-        margin-left: 0%;
-        height: 50%;
-        background-color: white;
-        
-    }
-    #hebflex2
-    {
-        flex-direction: column;
-        height: 50%;
-        background-color: white;
-        margin-left: 0%;
-    }
-    .heb
-    {
-        width: 100%;
-        height: 30%;
-        box-shadow: 5px 5px 3px #f2f2f2;
-        
-    }
-    #bold2_heb
-    {
-        height: 2%;
-        
-    }
-    /*  Activites*/
-    #actmain
-    {
-        flex-direction: column;
-        height: auto;
-        width: 60%;
-        margin-left: 15%;
-          
-    }
-    #activites
-    {
-        margin-left: 15%;
-    }
-    .act1
-    {
-        height: 250px;
-        width: 95%;
-        margin-bottom: 20px;
-    }    
-
-    .act2
-    {
-        height: 540px;
-        width: 95%;
-        margin-bottom: 20px;
-    }
-    .meta_act2
-    {   display: flex;
-        flex-direction: column;
-        height: 250px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-    .im_g_act
-    {
-        height: 100%;
-        width: 100%;
-    }
-    #im_m_act1
-    {
-        height: 250px;
-        width: 100%;
-        position: absolute;
-        top: 0px;
-    }
-    #im_m_act2
-    {
-        height: 250px;
-        width: 100%;
-        position: absolute;
-        top: 0px;
-    }
-    #im_p_act1
-    {
-        height: 250px;
-        width: 100%;
-        position: absolute;
-        top: 0px;
-    }
-    #im_p_act2
-    {
-        height: 250px;
-        width: 100%;
-        position: absolute;
-        top: 0px;
-    }
-    .a_g_act
-    {
-        width: 100%;
-        height: 50px;
-        bottom: 0;
-    }
-    .a_g_act p
-    {
-        margin:16px
-    }
-    #a_m_act1
-    {
-        width: 100%;
-        height: 50px;
-        top: 80%;
-        position: absolute;
+       margin-bottom: 10px;
+       width: 70%;
+       margin: 10px auto;
        
-    }
-    #a_m_act1 p
-    {
-        margin:16px
-    }
-    #a_m_act2
-    {
-        width: 100%;
-        height: 50px;
-        top: 80%;
-        position: absolute;
-    }
-    #a_m_act2 p
-    {
-        margin:16px;
-
-    }
-    #a_p_act1
-    {
-        width: 100%;
-        height: 50px;
-        bottom: 0;
-        position: absolute;
-    }
-    #a_p_act1 p
-    {
-        margin:16px;
-    }
-    #a_p_act2
-    {
-        width: 100%;
-        height: 50px;
-        top: 80%;
-        position: absolute;
-    }
-    #a_p_act2 p
-    {
-        margin:16px;
-    }
-    #info
-    {
-        width: 100%;
-    }
-    #filtre ul
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        align-items: flex-start;
-        
-        
-    }
+   }
+   #sec_pop
+   {
+    margin: 10px auto;
+    width: 70%;
+   }
+ 
+  
 
  /*Footer*/
   
@@ -1609,11 +1419,3 @@ color:#0065FC
     }
 }
 
-/*
-.photo_pop
-{
-    height: 97%;
-    width: 97%;
-    border-radius: 20px 0 0 20px;
-    
-}*/
