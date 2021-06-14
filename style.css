@@ -203,7 +203,7 @@ nav
 {
     display: block;
     padding: 10px;
-    position:relative;
+    position: relative;
     color: black;
     padding-left: 60px;
     border: 1px solid rgb(199, 195, 195);
@@ -280,6 +280,7 @@ nav
     flex-direction: column;
     background-color: #f2f2f2;
     border-radius: 20px;
+    margin-bottom: 1%;
    
     
    
@@ -351,18 +352,19 @@ nav
     display: flex;
     flex-direction: row;
     justify-content: start;
-    height: 13%;
-    width: 90%;
     position: absolute;
     z-index: 3;
     left:7%;
-    bottom: 1%;
-    
+    bottom: 5px;
 }
-.hebimgsize
+.blue_star i
 {
-    height: 50%;
-    width: 15px;
+    color: #0065FC;
+ }
+.grey_star i
+{
+    color:#f2f2f2;
+    
 }
 
 
@@ -394,6 +396,7 @@ nav
     background-color: #F2F2F2;
     border-radius: 15px;   
     margin-right: 5%;
+    margin-bottom: 1%;
 }
 
 #logo_sec2
@@ -404,7 +407,7 @@ nav
     align-items: center;
     width: 90%;
     margin-left: 3%;
-  /*  margin-bottom: 3%;*/
+ 
 }
 
 #popflex
@@ -467,7 +470,7 @@ nav
     justify-content: start;
     align-items: center;
     height: 18%;
-    width: 50%;
+    width: 40%;
     position: absolute;
     z-index: 3;
     left: 45%;
@@ -841,10 +844,12 @@ color:#0065FC
     /*Filtres*/
     
     #filtre ul li:not(.filtre_heading)
-    {  height: 90%;
-       display: flex;
-      flex-direction: column-reverse;
-      justify-content: space-between ;
+    {  
+    height: 90%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between ;
+    position: relative;
        
       
     }
@@ -852,14 +857,16 @@ color:#0065FC
     {
        margin-bottom: 15px;
     }
+    #filtre i
+    {
+       
+        top: 0%;
+    }
    /*Hebergements*/
    #heb_main
       {
-       
-       margin-bottom: 10px;
        width: 70%;
        margin: 10px auto;
-       
    }
    #sec_pop
    {
@@ -901,23 +908,10 @@ color:#0065FC
     }
 }
 
-
-
-
-
 @media screen and (max-width:480px)
 
 {   
-    
-    body
-    {
-       font-size: 0.9em;
-       min-width: 99%;
-       padding: 0px;
-       margin: 0px;
-     }
-
-
+   
     #top-bar
     {
         width: 99%;
@@ -1164,81 +1158,76 @@ color:#0065FC
     }
     /*Les plus populaires*/
 
-    #sec_heb_pop
+    #bodymain
 
-    {
+    {   width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: left;
-        width: 100%;
-        margin-left: 0%;
         height: auto;
         margin-bottom: 0px;
-        margin-top: 7%;
+        margin: 7% 0%;
+        
+        
        
-    
     }
+    
     #sec_pop
     { 
         width: 100%;
-        height: 600px;
-        margin-left: 0px;
+        min-width: 270px;
         margin-bottom: 7%;
         border-radius: 0px;
         order: 1;
+        margin-top: 5px;
+        
+       
         
     }
-    .pop
-    {
-        
-        height: 30%;
-    }
-    #sec_heb
-    {
-        width: 90%;
-        height: 1900px;
-        margin-left: 5%;
-        order: 2;
-        background-color: white;
-        
-    }
+   
     #logo_sec2 h2
     {
         font-size: 1.1em;
         font-weight: bolder;
     }
-    /*Hebergements à Marseille*/
-    #hebflex
+    #popflex
+
     {
-        flex-direction: column;
-        margin-bottom: 0%;
-        margin-left: 0%;
-        height: 50%;
-        background-color: white;
-       
-        
-        
+      width: 100%;
+      
     }
-    #hebflex2
+    #logo_sec2
     {
-        flex-direction: column;
-        height: 50%;
+        
+        width: 85%;
+    }
+    .sheb
+    {
+        width: 30%;
+    }
+
+    /*Hebergements à Marseille*/
+    #heb_main
+    {
+        width: 96%;
+        margin-left: 2%;
+        order: 2;
         background-color: white;
-        margin-left: 0%;
+        
+
     }
     .heb
     {
         width: 100%;
-        height: 30%;
+        height: 250px;
         box-shadow: 5px 5px 3px #f2f2f2;
         border: 1px solid #f2f2f2;
-        
         
     }
     #bold2_heb
     {
         height: 2%;
-        
+       height: 20px;
     }
     #hebergement 
     {
@@ -1247,40 +1236,65 @@ color:#0065FC
         
 
     }
-
+    .sheb
+    {
+        width: 20%;
+    }
 
     /*Activités à Marseille*/
-    
+    #activ
+    {
+      
+       
+        width: 99%;
+        margin:0%
+    }
+    #activites
+    {
+        font-size: 1.1em;
+        font-weight: bolder;
+        margin-left: 5%;
+        width: 70%;
+    }
     #actmain
     {
         flex-direction: column;
         justify-content: left;
-        margin-left: 5%;
+        margin-left: auto;
+        margin-right: auto;
         height: auto;
         width: 90%;
-        
-          
-    }
-    
-    #activ
-    {
-        margin-left: 1%;
+       
+   
     }
     .act1
     {
-        height: 250px;
+        height: 300px;
         width: 100%;
         margin-bottom: 20px;
+       
         
+    } 
+    .im_g_act
+    {
+        height: 100%;
+        width: 99%;
         
-    }    
-
+    }
+    .a_g_act
+    {
+        width: 99%;
+        height: 50px;
+        bottom: 0;
+    }
+       /*
     .act2
     {
         height: 540px;
         width: 100%;
         margin-bottom: 20px;
     }
+    
     .meta_act2
     {   display: flex;
         flex-direction: column;
@@ -1288,11 +1302,13 @@ color:#0065FC
         margin-bottom: 20px;
         position: relative;
     }
+    
     .im_g_act
     {
         height: 100%;
         width: 100%;
     }
+    /*
     #im_m_act1
     {
         height: 250px;
@@ -1321,12 +1337,7 @@ color:#0065FC
         position: absolute;
         top: 0px;
     }
-    .a_g_act
-    {
-        width: 100%;
-        height: 50px;
-        bottom: 0;
-    }
+    
     .a_g_act p
     {
         margin:16px
@@ -1377,12 +1388,7 @@ color:#0065FC
     {
         margin:16px;
     }
-    #activites
-    {
-        font-size: 1.1em;
-        font-weight: bolder;
-        margin-left: 5%;
-    }
+    */
 /*Footer*/
    footer
    {   display: flex;
