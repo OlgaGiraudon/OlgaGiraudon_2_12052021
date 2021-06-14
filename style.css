@@ -13,7 +13,7 @@ h1
     font-size: 1.5em;
     margin-bottom: 0;
 }
-section h2
+h2
 {
   
     padding-left:15px;
@@ -157,7 +157,7 @@ nav
 
 #button
 {
-    height: 36px;  
+    height: 35px;  
     position: absolute;  
     background-color: #0065FC;
     font-family: 'Raleway', sans-serif;
@@ -297,8 +297,13 @@ nav
     z-index: 2;
     margin-bottom: 25px;
     margin-right: 1%;
+    cursor: pointer;
 }
-
+#heb_main h2
+{
+    font-size: 17px;
+    font-weight: bolder;
+}
 .bold
 {
     font-weight: bolder;
@@ -327,7 +332,7 @@ nav
     left: 7%;
     bottom: 20px;
     z-index: 3;
-    line-height: 20px; 
+    line-height: 23px; 
 }
 
 .aheb:hover
@@ -363,12 +368,14 @@ nav
     margin-left: 30px;
     margin-bottom: 10px;
     margin-top: 15px;
+    
 }
 
 .bold2_heb a
 {
     font-weight: bolder;
     color: black;
+    font-size: 1em;
 }
 
 .bold2_heb a:hover
@@ -397,6 +404,11 @@ nav
     width: 90%;
     margin-left: 3%;
 }
+aside h2
+{
+    font-size: 17px;
+    font-weight: bolder;
+}
 
 #popflex
 {
@@ -416,6 +428,7 @@ nav
     height: 140px;
     margin-bottom: 20px;
     position: relative;
+    cursor: pointer;
 }
 
 .imgpop
@@ -456,7 +469,7 @@ nav
     position: absolute;
     z-index: 3;
     left: 45%;
-    bottom: 15px;
+    bottom: 7px;
 }
 
 /*Activites à Marseille*/
@@ -468,19 +481,25 @@ nav
     margin-left: 2%;
 }
 
+#activ h2
+{
+    font-size: 17px;
+    font-weight: bolder;
+}
+
 #actmain
 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
 .act1
 {
     width: 24%;
-    min-width: 350px;
+    min-width: 250px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -513,6 +532,7 @@ nav
     z-index: 1;
     box-shadow: 5px 5px 3px #f2f2f2;
     object-fit: cover;
+    
 }
 
 .a_g_act
@@ -524,12 +544,14 @@ nav
     bottom: 0%;
     border-radius: 0 0 20px 20px;
     color:black; 
+    border-left: 1px solid #f2f2f2;
 }
 
 .a_g_act p
 {
     margin-left: 20px;
     margin-bottom: 1%;
+    
 }
 
 .a_g_act:hover
@@ -572,6 +594,7 @@ nav
     z-index: 2;
     position: absolute;
     top: 45%;  
+    border-left: 1px solid #f2f2f2;
 }
 
 #a_m_act1 p
@@ -622,6 +645,7 @@ nav
     border-radius: 0px 0px 20px 20px;
     z-index: 2;
     bottom: 0%;
+    border-left: 1px solid #f2f2f2;
 }
 
 #a_p_act1 p
@@ -647,6 +671,7 @@ nav
     border-radius: 0px 0px 20px 20px;
     z-index: 2;
     top: 29%;  
+    border-left: 1px solid #f2f2f2;
 }
 
 #a_p_act2 p
@@ -672,6 +697,7 @@ nav
     z-index: 2;
     position: absolute;
     bottom: 0%;
+    border-left: 1px solid #f2f2f2;
 }
 
 #a_m_act2 p
@@ -838,6 +864,49 @@ footer
          margin: 10px auto;
         width: 70%;
    }
+   /*activites*/
+   #activites
+   {
+       text-align: center;
+   }
+   #actmain
+   {  
+       justify-content: space-around;
+       width: 98%;
+   }
+   .act1
+   {
+       width: 70%;
+       height: 350px
+   }
+  .act2
+  {
+    width: 70%;
+    height: 750px;
+   
+  }
+ .meta_act2
+ {
+     margin-bottom: 20px;
+ }
+  #im_p_act1,  #im_p_act2,
+  #im_m_act1,  #im_m_act2
+  {
+      height: 350px;
+      margin-bottom: 20px;
+  }
+   .a_g_act,
+   #a_p_act1,  #a_m_act2
+    {   position: absolute;
+        width: 100%;
+        height: 50px;
+        bottom: 0%;
+    } 
+    #a_m_act1, #a_p_act2
+    {
+        top: 300px;
+        height: 50px;
+    } 
 
     /*Footer*/
   
@@ -863,6 +932,7 @@ footer
     {
         width: 95%; 
     }
+
 }
 
 @media screen and (max-width:480px)
@@ -1196,39 +1266,34 @@ footer
         min-width: 200px;
         margin-bottom: 20px;
     } 
-     .a_g_act, #a_m_act1, #a_m_act2, #a_p_act1, #a_p_act2
-    {   position: absolute;
-        width: 100%;
-        height: 50px;
-        bottom: 0%;
-    } 
-      
-    #a_m_act1, #a_m_act2, #a_p_act2
-    {
-        top: 250px;
-    } 
-    
     .act2
     {
-        height: 640px;
+        height: 650px;
         width: 100%;
         min-width: 200px;
         margin-bottom: 20px;
     }
-    
     .meta_act2
     {   display: flex;
         flex-direction: column;
         height: 300px;
         margin-bottom: 20px;
         position: relative;
+    
+    }
+   
+    #a_m_act2, #a_p_act1,
+    #a_m_act1, #a_p_act2
+    {
+        
+        top: 250px;
+    }
+    #im_m_act1, #im_p_act1, #im_m_act2, #im_p_act2
+    { 
+        height: 100%;
+        top: 0%;
     }
 
-    #im_m_act1, #im_p_act1, #im_m_act2, #im_p_act2
-    {
-        height: 100%;
-        width: 100%;
-    }
  
 /*Footer*/
    footer
