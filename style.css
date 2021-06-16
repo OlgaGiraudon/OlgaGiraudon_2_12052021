@@ -40,7 +40,7 @@ a
 {
     display:flex;
     justify-content:flex-start;
-    margin-left: 1%;
+    margin-left: 15px;
     margin-top: 1%;
 }
 
@@ -112,7 +112,7 @@ nav
     flex-direction: column;
     flex-wrap: wrap;
     font-size: 1em;
-    margin-left: 20px;
+    margin-left: 15px;
     line-height: 15px;
 }
 
@@ -123,7 +123,7 @@ nav
      display: flex;
      flex-direction: row;
      justify-content: flex-start;
-     margin-left: 20px;
+     margin-left: 15px;
      width: 20%;
  }
  
@@ -174,7 +174,7 @@ nav
  #filtre
  {
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 15px;
  }
 
  #filtre ul li:first-child
@@ -243,7 +243,7 @@ nav
     flex-wrap: wrap;
     align-items: center;
     width: 60%;
-    margin-left: 20px; 
+    margin-left: 15px; 
 }
 
 .fa-info
@@ -265,7 +265,8 @@ nav
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap; 
-    margin-left: 1%;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 #heb_main
@@ -403,7 +404,6 @@ nav
     min-width: 350px;
     background-color: #F2F2F2;
     border-radius: 15px;   
-    margin-right: 2%;
     margin-bottom: 1%;
 }
 
@@ -489,9 +489,11 @@ aside h2
 
 #activ
 {
-    width: 98%;
+   /* width: 98%;*/
     margin-top: 2%;
-    margin-left: 1%;   
+    margin-left: 15px;   
+    margin-right: 15px;
+  
 }
 
 #activ h2
@@ -506,8 +508,8 @@ aside h2
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;  
 }
 
 .act1
@@ -519,7 +521,6 @@ aside h2
     flex-direction: column;
     border-radius: 20px;
     position: relative;
-    margin-right: 1%;
     margin-bottom: 2%;
 }
 
@@ -532,7 +533,6 @@ aside h2
     flex-direction: column;
     border-radius: 20px;
     position: relative;
-    margin-right: 1%;
     margin-bottom: 2%;
 }
 
@@ -778,9 +778,10 @@ footer
     /*Logo + menu navigation*/
    #top-bar
    {
-       margin-left: 3%;
+       margin-left: 15px;
        width: 96%;
        height: 70px; 
+       
    }
 
     #logo
@@ -873,8 +874,6 @@ footer
     {
        width: 75%;
        margin: 10px auto;
-       
-
     }
     #logo_heb
     {
@@ -905,12 +904,14 @@ footer
    /*activites*/
    #activ
    {
-       width: 99%;
-       margin-left: 0%;
+       width: 72%;
+       
+       margin-left: auto;
+       margin-right: auto;
    }
    #activites
    {
-    margin-left: 13%;
+    margin-left: 0%;
    }
    #actmain
    {  
@@ -919,7 +920,7 @@ footer
    }
    .act1
    {
-       width: 75%;
+       width: 100%;
        height: 350px;
        margin-left: auto;
        margin-right: auto;
@@ -927,7 +928,7 @@ footer
    }
   .act2
   {
-    width: 75%;
+    width: 100%;
     height: 720px;
     margin-left:auto;
     margin-right: auto;
@@ -1464,11 +1465,18 @@ footer
         margin-left: 1%;
     }
     /*Activites*/
+ /*   #activ
+    {
+        
+       
+    }*/
    #actmain
-   {
+   {   width:95%;
        display: grid;
        grid-template-rows: 50% 50%;
        grid-template-columns: 50% 50%;
+       margin-left: auto;
+       margin-right: auto;
    }
    .act1
    {
@@ -1478,6 +1486,12 @@ footer
    {
        width: 98%;
    }
-   
+   #activites
+   {
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
  
 }
